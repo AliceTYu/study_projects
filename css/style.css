@@ -1,0 +1,20 @@
+.main {
+}
+
+.main__project {
+}
+
+.main__project:not(:last-child){
+    padding-bottom: 10px;
+}
+
+.main__link {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main__link:hover{
+    margin-left: 20px;
+    transition: all 0.5s ease 0s;
+}
